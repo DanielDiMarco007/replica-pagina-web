@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #d0f7d0;
+  color: #333;
+}
+
+
+.hero {
+  background: url('https://www.aviariojp.org/wp-content/uploads/2020/05/loros-guacamayos-3000x1582.jpg') center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 100, 0, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+
+.btn-success {
+  background-color: #2e8b57;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #256b45;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+}
